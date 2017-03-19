@@ -8,8 +8,8 @@ This is an attempt to port an old java multithreaded webserver from my distribut
 
 The main goals for this program are:
 - In Progress: **Convert Webserver**
-- In Progress: **Convert Telnet**
-- In Progress: **Convert Listener**
+- Scrapped: ~~~Convert Telnet~~~
+- Scrapped: ~~~Convert Listener~~~
 
 ## Start Date
 
@@ -21,15 +21,21 @@ The main goals for this program are:
 
 ## Goal Changes
 
+- Some files are not getting converted because I realized those files were not part of the webserver sourcecode.
+- I was having problems handling threads with sockets, I changed it to fork for now to allows for concurrent connections.
+
 ---
 
 ## Updates
 
-- Last updated March 17, 2017
+- Last updated March 19, 2017
 
 ---
 
 ## Possible Improvements
+
+- Use fork instead of threads.
+- Find a way to incorporate threads.
 
 ---
 
