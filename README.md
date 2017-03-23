@@ -7,7 +7,7 @@ This is an attempt to port an old java multithreaded webserver from my distribut
 ## Main Goals
 
 The main goals for this program are:
-- In Progress: **Convert Webserver**
+- Completed: **Convert Webserver from java to c++**
 - Scrapped: ~~~Convert Telnet~~~
 - Scrapped: ~~~Convert Listener~~~
 
@@ -17,7 +17,7 @@ The main goals for this program are:
 
 ## Initial Completion Date
 
-- In Progress
+- March 22, 2017
 
 ## Goal Changes
 
@@ -34,12 +34,20 @@ The main goals for this program are:
 
 ## Possible Improvements
 
-- Use fork instead of threads.
+- Code cleanup and refactor.
+- Add more file types.
+- Add custom ports to run.
 - Find a way to incorporate threads.
 
 ---
 
 ## Notes
+
+- Webserver runs on localhost:2540
+- Shows the index of directories.
+- Shows HTML and TXT files.
+- Appropriate HTTP header response codes.
+- Works with AddNum.html
 
 ---
 
