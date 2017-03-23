@@ -49,6 +49,9 @@ The main goals for this program are:
 - Appropriate HTTP header response codes.
 - Works with AddNum.html
 
+![Screenshot](/screenshots/ss1.jpg?raw=true "Screenshot of file index")
+![Screenshot](/screenshots/ss2.jpg?raw=true "Screenshot of using AddNum.html")
+
 ---
 
 ## Special Thanks To
